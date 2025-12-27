@@ -1,0 +1,3 @@
+System state changed to: STARTED
+System state changed to: RUNNING
+System state changed to: STOPPED

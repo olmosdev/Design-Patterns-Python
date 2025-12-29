@@ -56,6 +56,22 @@ An object has a state. Depending on its state, it will have different behaviors.
 
 More info: [State Design Pattern - GeeksforGeeks](https://www.geeksforgeeks.org/system-design/state-design-pattern/) and [State](https://refactoring.guru/design-patterns/state)
 
+# Builder (creational pattern)
+
+It's useful when dealing with objects that have very large constructors—objects that require a great deal of complexity to create. It allows you to create a complex object step by step.
+
+![](/home/gabyolmos/Escritorio/Curso%20de%20Patrones%20de%20Diseño%20en%20Python/assets/Builder.png)
+
+More info: [Builder](https://refactoring.guru/design-patterns/builder) or [Builder Design Pattern - GeeksforGeeks](https://www.geeksforgeeks.org/system-design/builder-design-pattern/) or [Builder Design Pattern - DEV Community](https://dev.to/srishtikprasad/builder-design-pattern-3a7j)
+
+# Bridge (structural pattern)
+
+It serves to separate the actions of "what do you do?" from "how do you do it?". In other words, "lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other." It defines a bridge between an abstraction that you will actually use in your system and a smaller implementation that you can scale, being able to change its behavior without needing to modify the abstraction that you will actually use in your system. That is the goal of Bridge: to separate the "what" from the "how".
+
+![](/home/gabyolmos/Escritorio/Curso%20de%20Patrones%20de%20Diseño%20en%20Python/assets/Bridge.png)
+
+More info: [Bridge](https://refactoring.guru/design-patterns/bridge)
+
 
 
 To be continued...

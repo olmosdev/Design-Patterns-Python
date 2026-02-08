@@ -72,6 +72,36 @@ It serves to separate the actions of "what do you do?" from "how do you do it?".
 
 More info: [Bridge](https://refactoring.guru/design-patterns/bridge)
 
+# Iterator (behavioral pattern)
 
+A design pattern that manages collections to allow for iterations without exposing the logic. We can define who comes next.
+
+![](/home/gabyolmos/Escritorio/Curso%20de%20Patrones%20de%20Diseño%20en%20Python/assets/Iterator.png)
+
+More info: [Iterator](https://refactoring.guru/es/design-patterns/iterator)
+
+# Abstract Factory (creational pattern)
+
+This pattern seeks to group a set of classes that have a common function called families, which are created through a Factory. This pattern is especially useful when we need to have certain families of classes to solve a problem. However, it may be necessary to create parallel implementations of these classes to solve the same problem but with a different implementation.
+
+![](/home/gabyolmos/Escritorio/Curso%20de%20Patrones%20de%20Diseño%20en%20Python/assets/Abstract%20Factory.png)
+
+More info:
+
++ [Abstract Factory](https://reactiveprogramming.io/blog/es/patrones-de-diseno/abstract-factory)
+
++ [Abstract Factory](https://refactoring.guru/es/design-patterns/abstract-factory)
+
+# Prototype (creational pattern)
+
+This pattern clones objects. It arises from the need to clone an object which requires a lot of computational resources to create. Its construction required a lot of time since it was possible to consult APIs or Databases. It allows us to copy existing objects without the code depending on their classes. Its functionality in cloning objects, these new objects are created through a pool of prototypes previously prepared and stored.
+
+![](/home/gabyolmos/Escritorio/Curso%20de%20Patrones%20de%20Diseño%20en%20Python/assets/Prototype.png)
+
+More info:
+
++ [Prototype](https://refactoring.guru/es/design-patterns/prototype)
+
++ [Prototype](https://reactiveprogramming.io/blog/es/patrones-de-diseno/prototype)
 
 To be continued...

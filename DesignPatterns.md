@@ -104,4 +104,32 @@ More info:
 
 + [Prototype](https://reactiveprogramming.io/blog/es/patrones-de-diseno/prototype)
 
+# Registry (structural or creational pattern)
+
+The Registry pattern serves as a centralized directory (a "map") that stores references to objects, classes, or functions so they can be found and used anywhere in the application without the need to pass them as constant arguments. It is ideal for dynamically managing configurations, messaging services, or database connections. The main goal of using the Registry pattern is to eliminate the need for endless if-elif-else chains.
+
+Note: This pattern is not from this course; it's an extra resource I found on YouTube from a great channel called "Código Espinoza - Automatiza tu Vida" (Reference in the links).
+
+![](/home/gabyolmos/Escritorio/Curso%20de%20Patrones%20de%20Diseño%20en%20Python/assets/Registry.png)
+
+More info:
+
++ [Python Registry Pattern: A Clean Alternative to Factory Classes - DEV Community](https://dev-to.translate.goog/dentedlogic/stop-writing-giant-if-else-chains-master-the-python-registry-pattern-ldm?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc)
+
++ [El Patrón que Usan Flask, FastAPI y PyTorch (Y Por Qué Tu Código Escala Fatal Sin Él) - YouTube](https://youtu.be/DNMwvvX2GmQ?si=iW2V1w72dW-Xm2Uz)
+
++ [Registry Pattern - GeeksforGeeks](https://www.geeksforgeeks.org/system-design/registry-pattern/)
+
++ [I Hate Long If-Elif Chains: This Design Pattern Solved It Once and For All - YouTube](https://youtu.be/g7EGMWvJ1fI?si=0tIrXxNkgdN_SpzG)
+
++ [Registry Pattern in Java: Implementing a Centralized Control Mechanism for Java Objects | Java Design Patterns](https://java-design-patterns.com/patterns/registry/#detailed-explanation-of-registry-pattern-with-real-world-examples)
+
+
+
+
+
+
+
+
+
 To be continued...

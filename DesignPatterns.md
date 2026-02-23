@@ -124,6 +124,22 @@ More info:
 
 + [Registry Pattern in Java: Implementing a Centralized Control Mechanism for Java Objects | Java Design Patterns](https://java-design-patterns.com/patterns/registry/#detailed-explanation-of-registry-pattern-with-real-world-examples)
 
+# State machine
+
+Finite state machines (FSM) in programming are computational models that define a system through a limited number of states, transitions and actions, ideal for reactive systems, game logic, UI and embedded systems. Based on input events, the system changes from its current state to a new one, enabling structured behavior management and event-driven scheduling.
+
+Note: This is not a pattern and does not come in the course, but it is a technique that can be used to avoid using a lot of if-else with boolean flags.
+
+![](/home/gabyolmos/Escritorio/Curso%20de%20Patrones%20de%20Diseño%20en%20Python/assets/FSM.png)
+
+More info: 
+
++ https://www.profesionalreview.com/2022/11/26/maquinas-de-estado-finito-que-son-para-que-sirven/
+
++ [Introducción a state machines - MATLAB &amp; Simulink](https://la.mathworks.com/discovery/state-machine.html)
+
++ [Máquinas de Estados Finitos - Game Manual 0](https://gm0.org/es/latest/docs/software/concepts/finite-state-machines.html)
+
 
 
 
